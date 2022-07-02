@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calcbyanuj.css" />
+    <script src="calcbyanuj.js" defer></script>
+    <title>Javascript Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Javascript Calculator</h1>
+      <div class="display-div">
+        <p class="display" id="calc-display"></p>
+      </div>
+      <div class="calcBtn">
+        <button class="btn" id="btn-clr" onclick="clr()">C</button>
+        <button class="btn btnEx" id="btn-leftb" onclick="btnLeftb()">(</button>
+        <button class="btn btnEx" id="btn-rightb" onclick="btnRightb()">
+          )
+        </button>
+        <button class="btn" id="btn-back" onclick="btnBack()">←</button><br />
+        <button class="btn btnEx" id="btn1" onclick="btn1()">1</button>
+        <button class="btn btnEx" id="btn2" onclick="btn2()">2</button>
+        <button class="btn btnEx" id="btn3" onclick="btn3()">3</button>
+        <button class="btn btnEx" id="btn-pls" onclick="btnPls()">+</button
+        ><br />
+        <button class="btn btnEx" id="btn4" onclick="btn4()">4</button>
+        <button class="btn btnEx" id="btn5" onclick="btn5()">5</button>
+        <button class="btn btnEx" id="btn6" onclick="btn6()">6</button>
+        <button class="btn btnEx" id="btn-mns" onclick="btnMns()">-</button
+        ><br />
+        <button class="btn btnEx" id="btn7" onclick="btn7()">7</button>
+        <button class="btn btnEx" id="btn8" onclick="btn8()">8</button>
+        <button class="btn btnEx" id="btn9" onclick="btn9()">9</button>
+        <button class="btn btnEx" id="btn-str" onclick="btnStr()">*</button
+        ><br />
+        <button class="btn btnEx" id="btn-dvd" onclick="btnDvd()">/</button>
+        <button class="btn btnEx" id="btn0" onclick="btn0()">0</button>
+        <button class="btn btnEx" id="btn-dot" onclick="btnDot()">.</button>
+        <button class="btn" id="btn-equal" onclick="result()">=</button>
+      </div>
+    </div>
+  </body>
+</html>
